@@ -42,6 +42,10 @@ public class Student {
     return this.age;
   }
 
+  public Location getLocation() {
+    return this.location;
+  }
+
   public void setLocation(String country, String state, String city) {
     this.location.setCountry(country);
     this.location.setState(state);
